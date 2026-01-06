@@ -1,41 +1,37 @@
 import streamlit as st
-from datetime import datetime
-from snowflake.snowpark import Session
+import importlib.util
+import pathlib
 
-# --- Page Config ---
-st.set_page_config(
-    page_title="Portfolio Manager",
-    page_icon="📊",
-    layout="wide"
-)
+st.sidebar.title("30 Days of AI")
+day_folders = sorted([f for f in pathlib.Path().iterdir() if f.is_dir() and f.name.startswith("Day")])
+day_choice = st.sidebar.selectbox("Choose a day", [folder.name for folder in day_folders])
 
-# --- Sidebar with Date ---
-st.sidebar.title("📅 Date")
-today = datetime.now().strftime("%A, %d %B %Y")
-st.sidebar.info(today)
+# Journal in sidebar
+notes_path = pathlib.Path(day_choice) / "notes.md"
+st.sidebar.subheader("📓 Journal")
+if notes_path.exists():
+    st.sidebar.markdown(notes_path.read_text())
+else:
+    st.sidebar.info("No journal yet for this day.")
 
-# --- Main Title & Subtitle ---
-st.title("📈 Portfolio Manager")
-st.subheader("30 Days of AI, Streamlit and Snowflake")
+# Main area: run the first .py file inside the folder
+st.title(f"{day_choice} Showcase")
+py_files = list(pathlib.Path(day_choice).glob("*.py"))
+if py_files:
+    file_path = py_files[0]  # pick the first .py file
+    spec = importlib.util.spec_from_file_location("day_app", file_path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+else:
+    st.error(f"No .py file found in {day_choice}")
 
-# --- Connect to Snowflake ---
-session = Session.builder.configs(st.secrets["connections"]["snowflake"]).create()
-
-# Quick test query
-version = session.sql("SELECT CURRENT_VERSION()").collect()[0][0]
-st.success(f"Connected to Snowflake! Version: {version}")
-
-# --- Query your investments table ---
-df = session.table("investments").to_pandas()
-st.dataframe(df, use_container_width=True)
-
-# --- Footer with GitHub link ---
 st.markdown(
     """
     <hr style="margin-top:50px; margin-bottom:10px;">
     <div style="text-align:center">
-        Made with ❤️ using Streamlit & Snowflake <br>
-        <a href="https://github.com/Gnbhavi" target="_blank">🌐 Gn Bhavi</a>
+        Made with ❤️ during my 30‑Day AI Challenge <br>
+        <a href="https://github.com/Gnbhavi" target="_blank">🌐 GitHub</a> |
+        <a href="www.linkedin.com/in/bhavithran" target="_blank">🔗 LinkedIn</a>
     </div>
     """,
     unsafe_allow_html=True

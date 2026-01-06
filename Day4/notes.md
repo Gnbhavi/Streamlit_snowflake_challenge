@@ -1,0 +1,1 @@
+Along the way, I learned a new and surprisingly useful trick, caching the application 🧠⚡. It turned out to be a good idea, making the app faster and smoother, and it also gave me a pleasant “oh, that’s neat!” moment 😄. Realizing its benefits, I decided to pause, dig deeper, and spend some time reading more about caching before moving ahead 📚🚀.
