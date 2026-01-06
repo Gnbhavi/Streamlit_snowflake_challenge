@@ -25,13 +25,25 @@ if py_files:
 else:
     st.error(f"No .py file found in {day_choice}")
 
+# st.sidebar.markdown(
+#     """
+#     <hr style="margin-top:50px; margin-bottom:10px;">
+#     <div style="text-align:center">
+#         Made with ❤️ during my 30‑Day AI Challenge <br>
+#         <a href="https://github.com/Gnbhavi" target="_blank">🌐 GitHub</a> |
+#         <a href="https://www.linkedin.com/in/bhavithran" target="_blank">🔗 LinkedIn</a>
+#     </div>
+#     """,
+#     unsafe_allow_html=True
+# )
+
 st.sidebar.markdown(
     """
     <hr style="margin-top:50px; margin-bottom:10px;">
-    <div style="text-align:center">
+    <div style="text-align:center; font-size: 14px;">
         Made with ❤️ during my 30‑Day AI Challenge <br>
-        <a href="https://github.com/Gnbhavi" target="_blank">🌐 GitHub</a> |
-        <a href="www.linkedin.com/in/bhavithran" target="_blank">🔗 LinkedIn</a>
+        <a href="https://github.com/Gnbhavi" target="_blank" style="text-decoration:none; color:#00FFFF;">🌐 GitHub</a> |
+        <a href="https://www.linkedin.com/in/bhavithran" target="_blank" style="text-decoration:none; color:#39FF14;">🔗 LinkedIn</a>
     </div>
     """,
     unsafe_allow_html=True
