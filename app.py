@@ -25,7 +25,7 @@ if py_files:
 else:
     st.error(f"No .py file found in {day_choice}")
 
-st.markdown(
+st.sidebar.markdown(
     """
     <hr style="margin-top:50px; margin-bottom:10px;">
     <div style="text-align:center">
