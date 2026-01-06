@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad6a094a-dff9-410b-9786-71bd48a5917b" name="Changes" comment="Just small updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/notes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +109,7 @@
       <updated>1767673415304</updated>
       <workItem from="1767673416338" duration="371000" />
       <workItem from="1767673804683" duration="8086000" />
-      <workItem from="1767692270188" duration="5702000" />
+      <workItem from="1767692270188" duration="6026000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -177,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767697090645</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Just small updates">
+      <option name="closed" value="true" />
+      <created>1767697996976</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767697996976</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Just small updates">
+      <option name="closed" value="true" />
+      <created>1767698035152</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767698035152</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
