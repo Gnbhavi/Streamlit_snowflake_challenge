@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad6a094a-dff9-410b-9786-71bd48a5917b" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/Day1/connecting_to_snowflake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day2/day2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Streamlit_snowflake_challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Streamlit_snowflake_challenge.iml" afterDir="false" />
+    <list default="true" id="ad6a094a-dff9-410b-9786-71bd48a5917b" name="Changes" comment="Just small updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,22 +21,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Gnbhavi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Gnbhavi&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Gnbhavi/Streamlit_snowflake_challenge.git",
-    "accountId": "6f0e1ec2-a877-4585-8558-6ad81d3dfcf4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Gnbhavi/Streamlit_snowflake_challenge.git&quot;,
+    &quot;accountId&quot;: &quot;6f0e1ec2-a877-4585-8558-6ad81d3dfcf4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="37ruGX93LRhmNpZLeOwSUdujAfr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,10 +47,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.App_caching.executor": "Run",
     "Python.app.executor": "Run",
     "Python.connecting_to_snowflake.executor": "Run",
     "Python.day2.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.write_stream.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -109,7 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1767673415304</updated>
       <workItem from="1767673416338" duration="371000" />
-      <workItem from="1767673804683" duration="7071000" />
+      <workItem from="1767673804683" duration="8086000" />
+      <workItem from="1767692270188" duration="5702000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -127,7 +129,55 @@
       <option name="project" value="LOCAL" />
       <updated>1767673957195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day 1, connecting to snowflake and creating app">
+      <option name="closed" value="true" />
+      <created>1767681673508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767681673508</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Day 2">
+      <option name="closed" value="true" />
+      <created>1767693516651</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767693516651</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Day 3">
+      <option name="closed" value="true" />
+      <created>1767693523435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767693523435</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Day 4">
+      <option name="closed" value="true" />
+      <created>1767693721353</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767693721353</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding notes">
+      <option name="closed" value="true" />
+      <created>1767696977438</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767696977438</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Just small updates">
+      <option name="closed" value="true" />
+      <created>1767697090645</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767697090645</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,11 +196,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Day 1, connecting to snowflake and creating app" />
+    <MESSAGE value="Day 2" />
+    <MESSAGE value="Day 3" />
+    <MESSAGE value="Day 4" />
+    <MESSAGE value="Adding notes" />
+    <MESSAGE value="Just small updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Just small updates" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Day2/day2.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$main.coverage" NAME="app Coverage Results" MODIFIED="1767679745999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$App_caching.coverage" NAME="App_caching Coverage Results" MODIFIED="1767693548351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$connecting_to_snowflake.coverage" NAME="connecting_to_snowflake Coverage Results" MODIFIED="1767679038897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$day2.coverage" NAME="day2 Coverage Results" MODIFIED="1767680854063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$day2.coverage" NAME="day2 Coverage Results" MODIFIED="1767681725369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$app.coverage" NAME="app Coverage Results" MODIFIED="1767694242256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$write_stream.coverage" NAME="write_stream Coverage Results" MODIFIED="1767692981717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
