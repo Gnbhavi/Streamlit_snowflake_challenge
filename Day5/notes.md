@@ -1,0 +1,1 @@
+This is good one, even though I didn't use it to the fullest. Its repeated response we ask the AI bot, so instead of that we can this as an initial layer.
