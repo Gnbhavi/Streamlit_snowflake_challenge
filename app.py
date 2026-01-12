@@ -1,9 +1,15 @@
 import streamlit as st
 import importlib.util
 import pathlib
+import re
 
 st.sidebar.title("30 Days of AI")
+
+# Get all Day folders
 day_folders = sorted([f for f in pathlib.Path().iterdir() if f.is_dir() and f.name.startswith("Day")])
+# Sort by the numeric part of the folder name
+day_folders = sorted(day_folders, key=lambda f: int(re.search(r'\d+', f.name).group()), reverse=False)
+
 day_choice = st.sidebar.selectbox("Choose a day", [folder.name for folder in day_folders])
 
 # Journal in sidebar
@@ -24,18 +30,6 @@ if py_files:
     spec.loader.exec_module(module)
 else:
     st.error(f"No .py file found in {day_choice}")
-
-# st.sidebar.markdown(
-#     """
-#     <hr style="margin-top:50px; margin-bottom:10px;">
-#     <div style="text-align:center">
-#         Made with ❤️ during my 30‑Day AI Challenge <br>
-#         <a href="https://github.com/Gnbhavi" target="_blank">🌐 GitHub</a> |
-#         <a href="https://www.linkedin.com/in/bhavithran" target="_blank">🔗 LinkedIn</a>
-#     </div>
-#     """,
-#     unsafe_allow_html=True
-# )
 
 st.sidebar.markdown(
     """
