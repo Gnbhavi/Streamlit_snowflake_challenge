@@ -1,1 +1,1 @@
-This is funny, I'm learning new things, understanding the code. But the purpose I am nott getting. Let's see.
+This is funny, I'm learning new things, understanding the code. But the purpose I am not getting. Let's see.

@@ -1,0 +1,1 @@
+This is funny, I'm learning new things, understanding the code. But the purpose I am not getting. Let's see what will happen to the things going on.

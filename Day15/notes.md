@@ -1,0 +1,1 @@
+Now we are in a stage where we compare the AI models to see which outperform the other. Starting at nothing to now is a great improvement. But it's giving me a fell of taking money from ATM and counting many times 

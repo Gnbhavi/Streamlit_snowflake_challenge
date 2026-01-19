@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad6a094a-dff9-410b-9786-71bd48a5917b" name="Changes" comment="day4 - day7">
-      <change afterPath="$PROJECT_DIR$/Day10/First_chat_box.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day8/Meet_the_chat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day8/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/Understanding_session_state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
+    <list default="true" id="ad6a094a-dff9-410b-9786-71bd48a5917b" name="Changes" comment="day8-day10">
+      <change afterPath="$PROJECT_DIR$/Day11/Displaying_Chat_History .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day11/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day12/Streaming_Response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day12/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day13/Adding_a_System_Prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day13/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day14/Adding_Avatars_and_Error_Handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day14/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day15/Model_Comparision_Arena.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day15/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/Batch_Document_Text_Extractor_for_RAG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day17/Loading_and_Transforming_Customer_Reviews_for_RAG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day17/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day18/Loading_and_Transforming_Customer_Reviews_for_RAG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day18/notes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Day10/notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,29 +59,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.App_caching.executor": "Run",
-    "Python.First_chat_box.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.connecting_to_snowflake.executor": "Run",
-    "Python.day2.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.post_generator_app.executor": "Run",
-    "Python.write_stream.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/gnbhavithran/Python_github/Streamlit_snowflake_challenge",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.App_caching.executor&quot;: &quot;Run&quot;,
+    &quot;Python.First_chat_box.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.connecting_to_snowflake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.day2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.post_generator_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.write_stream.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gnbhavithran/Python_github/Streamlit_snowflake_challenge&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -183,7 +193,15 @@
       <workItem from="1767692270188" duration="6122000" />
       <workItem from="1767709102657" duration="5367000" />
       <workItem from="1767935481265" duration="2547000" />
-      <workItem from="1768186564249" duration="1759000" />
+      <workItem from="1768186564249" duration="2210000" />
+      <workItem from="1768188871109" duration="63000" />
+      <workItem from="1768188943491" duration="6000" />
+      <workItem from="1768192414205" duration="565000" />
+      <workItem from="1768725153782" duration="73000" />
+      <workItem from="1768725717244" duration="29000" />
+      <workItem from="1768726753875" duration="10000" />
+      <workItem from="1768746408845" duration="259000" />
+      <workItem from="1768794691828" duration="1767000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -353,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767938419612</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="day8-day10">
+      <option name="closed" value="true" />
+      <created>1768188699451</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1768188699451</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +407,8 @@
     <MESSAGE value="Correct coloring, and full app working on four days." />
     <MESSAGE value="just small stufs" />
     <MESSAGE value="day4 - day7" />
-    <option name="LAST_COMMIT_MESSAGE" value="day4 - day7" />
+    <MESSAGE value="day8-day10" />
+    <option name="LAST_COMMIT_MESSAGE" value="day8-day10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -400,7 +427,7 @@
     <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$connecting_to_snowflake.coverage" NAME="connecting_to_snowflake Coverage Results" MODIFIED="1767679038897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$day2.coverage" NAME="day2 Coverage Results" MODIFIED="1767681725369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$post_generator_app.coverage" NAME="post_generator_app Coverage Results" MODIFIED="1767935758166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$app.coverage" NAME="app Coverage Results" MODIFIED="1768187434451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$app.coverage" NAME="app Coverage Results" MODIFIED="1768794924840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Streamlit_snowflake_challenge$write_stream.coverage" NAME="write_stream Coverage Results" MODIFIED="1767692981717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

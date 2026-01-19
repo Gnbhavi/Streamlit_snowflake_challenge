@@ -1,0 +1,1 @@
+This is helping us to see the chats history a may be help to continue with the last chats. And we can end it on the instance whenever we need it.

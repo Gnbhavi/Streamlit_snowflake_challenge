@@ -1,0 +1,1 @@
+Adding lots of stuffs on the sidebar for personalizing the AI. It is really good.
